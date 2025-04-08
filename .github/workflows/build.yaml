@@ -59,7 +59,7 @@ jobs:
       - name: Build
         uses: docker/build-push-action@v6
         with:
-          tags: skofaljaz/fish:latest
+          tags: ghcr.io/skofaljaz/fish:latest
           push: true
         env:
           SOURCE_DATE_EPOCH: ${{ env.TIMESTAMP }}
